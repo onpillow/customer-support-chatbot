@@ -1,101 +1,51 @@
-Order ID,Tracking Number,Shipment Date,Expected Delivery Date,Delivery Date,Status,Customer ID,Customer Name,Customer Email,Customer Phone,Order Date,Refund Requested,Refund Reason,Refund Status,Refund Date,Notification Status
-ORD1000,123456789,2024-05-05,2024-05-10,2024-05-20,cancel,CUST1000,Cassandra Foster,rachel42@example.com,001-910-504-6389x837,2024-03-21,True,Damaged Item,approved,2024-05-26,False
-ORD1001,123456790,2024-05-15,2024-05-22,,in transit,CUST1001,Peter Turner,princelouis@example.net,(385)402-5026,2024-03-26,False,,,,True
-ORD1002,123456791,2024-05-07,2024-05-11,,pending,CUST1002,Justin Parrish,pjohnson@example.org,568-540-3172x25216,2024-04-16,False,,,,False
-ORD1003,123456792,2024-05-13,2024-05-17,,in transit,CUST1003,Sarah Hill,craigwilliams@example.com,001-931-777-1524x0415,2024-04-11,False,,,,True
-ORD1004,123456793,2024-04-29,2024-05-05,,in transit,CUST1004,Ian White,robertsteele@example.net,888.556.7985,2024-03-29,False,,,,True
-ORD1005,123456794,2024-05-03,2024-05-12,2024-05-14,delivered,CUST1005,Jeffrey Taylor,stephanie08@example.com,(534)931-9543x0410,2024-03-23,False,,,,True
-ORD1006,123456795,2024-04-23,2024-05-03,2024-05-09,delivered,CUST1006,Kimberly Martinez,jacobbrown@example.net,311.421.6858,2024-04-12,False,,,,True
-ORD1007,123456796,2024-05-07,2024-05-10,2024-05-11,cancel,CUST1007,Christian Finley,zrowe@example.com,9912200088,2024-04-10,True,Defective Item,approved,2024-05-18,True
-ORD1008,123456797,2024-05-05,2024-05-11,2024-05-19,delivered,CUST1008,Lisa Rodriguez,mark42@example.org,+1-552-326-7950x105,2024-03-28,True,Defective Item,approved,2024-05-26,False
-ORD1009,123456798,2024-04-17,2024-04-27,,in transit,CUST1009,Megan Jones,debrapeterson@example.com,2159041614,2024-03-25,False,,,,True
-ORD1010,123456799,,,,in process,CUST1010,Kevin Wagner,rchan@example.org,727-910-5357x3073,2024-03-31,True,Delivery Region Out of Scope,approved,,True
-ORD1011,123456800,2024-05-15,2024-05-21,,pending,CUST1011,Christine Davis,dsutton@example.com,001-244-650-2942x377,2024-04-04,False,,,,True
-ORD1012,123456801,2024-04-28,2024-05-02,,pending,CUST1012,Jessica Haas,mariakline@example.org,+1-503-994-8128,2024-03-19,False,,,,False
-ORD1013,123456802,2024-04-23,2024-04-26,2024-04-28,cancel,CUST1013,Zachary Buck,daniel04@example.com,001-478-635-3044x72865,2024-03-31,True,Defective Item,approved,2024-05-06,True
-ORD1014,123456803,2024-04-22,2024-04-27,2024-04-28,delivered,CUST1014,Debra Wolfe,smithpaul@example.org,001-790-579-0191,2024-04-01,True,Request Exceeded 7 Days,rejected,,False
-ORD1015,123456804,2024-04-29,2024-05-04,,in transit,CUST1015,Eric Gilbert,yleach@example.org,(848)681-4400x0844,2024-03-21,False,,,,True
-ORD1016,123456805,2024-04-22,2024-04-25,2024-04-29,cancel,CUST1016,Cheyenne Bray,maxwellhill@example.org,001-752-757-6271x001,2024-03-18,True,Damaged Item,approved,2024-05-06,True
-ORD1017,123456806,2024-05-09,2024-05-16,,in transit,CUST1017,Amanda Roberts,vernon68@example.org,716-634-6524,2024-04-02,False,,,,True
-ORD1018,123456807,2024-04-17,2024-04-24,2024-04-27,cancel,CUST1018,James Silva,maria34@example.com,821-846-2086,2024-03-29,True,Defective Item,approved,2024-05-03,True
-ORD1019,123456808,2024-04-20,2024-04-26,,in transit,CUST1019,Brandi Adams,lawrencematthew@example.com,001-461-948-1925,2024-03-31,False,,,,False
-ORD1020,123456809,,,,in process,CUST1020,Jason Martinez,michaelmcdaniel@example.net,953-288-0145x04067,2024-04-08,False,,,,False
-ORD1021,123456810,,,,in process,CUST1021,Kenneth Allen,lramirez@example.org,(903)613-8512x953,2024-04-01,True,Delivery Region Out of Scope,approved,,False
-ORD1022,123456811,2024-05-07,2024-05-16,2024-05-23,cancel,CUST1022,Michael Evans,farrellcharles@example.net,(441)700-0086x62563,2024-03-24,True,Defective Item,approved,2024-05-30,False
-ORD1023,123456812,2024-04-18,2024-04-27,,pending,CUST1023,Kyle Welch,jessicahall@example.org,(225)902-6057x0816,2024-03-20,False,,,,True
-ORD1024,123456813,,,,in process,CUST1024,Vincent Clayton,emily36@example.com,252-222-8536,2024-04-12,False,,,,False
-ORD1025,123456814,2024-05-15,2024-05-24,2024-05-30,delivered,CUST1025,Anthony Johnson,fjones@example.net,7916229337,2024-03-28,True,Damaged Item,approved,2024-06-06,False
-ORD1026,123456815,,,,in process,CUST1026,Kimberly Robinson,allisonbowen@example.net,(264)805-9926x8386,2024-03-19,False,,,,True
-ORD1027,123456816,2024-05-12,2024-05-19,2024-05-27,delivered,CUST1027,James Kaufman,michaelgonzales@example.com,+1-478-580-8347x685,2024-04-03,True,Damaged Item,approved,2024-06-03,True
-ORD1028,123456817,2024-04-29,2024-05-06,2024-05-15,delivered,CUST1028,Emily Christian,mary29@example.com,(386)338-2760,2024-04-10,False,,,,False
-ORD1029,123456818,,,,in process,CUST1029,Sarah Warren,lchristensen@example.com,589.736.8140,2024-04-09,False,,,,True
-ORD1030,123456819,,,,in process,CUST1030,Rachel Dorsey,cohenmary@example.org,355.334.1377x9361,2024-04-06,True,Delivery Region Out of Scope,approved,,True
-ORD1031,123456820,2024-04-26,2024-05-01,2024-05-06,delivered,CUST1031,Sylvia Davis,hroberts@example.com,(367)281-5219,2024-03-24,False,,,,True
-ORD1032,123456821,,,,in process,CUST1032,Monica Turner,jennifer93@example.org,+1-824-607-1392x44757,2024-04-08,False,,,,True
-ORD1033,123456822,2024-05-07,2024-05-16,,in transit,CUST1033,Lisa Watson,jacobscynthia@example.com,2303123425,2024-03-25,False,,,,True
-ORD1034,123456823,2024-04-30,2024-05-09,2024-05-12,cancel,CUST1034,Courtney Frazier,joshua91@example.com,430-553-7401x94137,2024-03-30,True,Damaged Item,approved,2024-05-18,False
-ORD1035,123456824,2024-04-17,2024-04-21,2024-04-24,delivered,CUST1035,Kevin Morris,cindyreed@example.org,001-298-691-0704x785,2024-03-22,True,Request Exceeded 7 Days,rejected,,True
-ORD1036,123456825,2024-05-04,2024-05-14,2024-05-15,delivered,CUST1036,Brianna Jones,nmiller@example.org,507-845-3496x23837,2024-03-28,True,Damaged Item,approved,2024-05-22,False
-ORD1037,123456826,2024-04-21,2024-04-28,2024-05-06,cancel,CUST1037,Ryan Ramos,cindy18@example.net,+1-572-893-5246x189,2024-04-08,True,Defective Item,approved,2024-05-14,True
-ORD1038,123456827,2024-04-21,2024-04-27,,in transit,CUST1038,Morgan Smith,bradleyjacobson@example.com,6708555697,2024-04-16,False,,,,True
-ORD1039,123456828,,,,in process,CUST1039,Carol Gonzales,gshaw@example.net,542.275.1994x9484,2024-04-14,False,,,,True
-ORD1040,123456829,,,,in process,CUST1040,Jason Ali,ronnie58@example.com,001-257-790-9415x661,2024-04-10,False,,,,True
-ORD1041,123456830,2024-04-27,2024-04-30,,pending,CUST1041,Patrick Cooley,smcdonald@example.com,(561)889-9186,2024-03-26,False,,,,True
-ORD1042,123456831,2024-05-02,2024-05-08,2024-05-18,delivered,CUST1042,Scott Snyder,alyssayoung@example.com,943.802.0680x492,2024-03-18,True,Damaged Item,approved,2024-05-25,True
-ORD1043,123456832,,,,in process,CUST1043,Ashley Bush,kennedysarah@example.com,001-449-794-5631x685,2024-04-03,False,,,,True
-ORD1044,123456833,2024-04-18,2024-04-22,,in transit,CUST1044,Chelsea Mueller,gcherry@example.org,+1-459-592-3335x86651,2024-04-16,False,,,,False
-ORD1045,123456834,2024-05-06,2024-05-13,2024-05-19,cancel,CUST1045,Kristy Robinson,hwalters@example.com,356-759-6809x60206,2024-03-22,True,Damaged Item,approved,2024-05-25,False
-ORD1046,123456835,2024-04-29,2024-05-04,2024-05-07,cancel,CUST1046,Anthony Cook,nbrooks@example.com,664.902.7842x675,2024-03-31,True,Damaged Item,approved,2024-05-14,True
-ORD1047,123456836,2024-05-15,2024-05-21,2024-05-29,cancel,CUST1047,Kathleen Farrell,tony76@example.org,392.206.1355x273,2024-04-16,True,Damaged Item,approved,2024-06-04,False
-ORD1048,123456837,2024-04-25,2024-04-29,,in transit,CUST1048,Joseph Johnson,wattsjesse@example.net,844-759-1188x90875,2024-04-02,False,,,,True
-ORD1049,123456838,2024-05-04,2024-05-11,2024-05-12,cancel,CUST1049,Leslie Garrison,ashley77@example.net,(287)254-3095,2024-04-16,True,Defective Item,approved,2024-05-18,False
-ORD1050,123456839,2024-05-02,2024-05-08,,in transit,CUST1050,Stephanie Taylor,gallegosheather@example.net,824.530.2810x6447,2024-04-12,False,,,,True
-ORD1051,123456840,2024-05-13,2024-05-20,,pending,CUST1051,Jennifer Allen,megan54@example.org,001-657-548-6911x102,2024-04-08,False,,,,True
-ORD1052,123456841,,,,in process,CUST1052,Jacob Black,darrell55@example.net,(485)858-2202,2024-04-05,False,,,,True
-ORD1053,123456842,2024-04-19,2024-04-28,2024-05-05,delivered,CUST1053,Mary Brown,mfisher@example.com,(684)392-3899x45938,2024-04-14,True,Request Exceeded 7 Days,rejected,,True
-ORD1054,123456843,2024-04-30,2024-05-10,2024-05-12,cancel,CUST1054,Mrs. Amy Quinn,gpineda@example.net,(932)434-4828,2024-03-31,True,Damaged Item,approved,2024-05-20,False
-ORD1055,123456844,2024-05-11,2024-05-19,,pending,CUST1055,Joshua Smith,cunninghammelissa@example.com,+1-419-945-1100x7434,2024-03-29,False,,,,True
-ORD1056,123456845,2024-05-14,2024-05-24,2024-05-27,delivered,CUST1056,Brandon Cook,ashleyflynn@example.org,316.933.3104x46477,2024-04-14,True,Damaged Item,approved,2024-06-03,True
-ORD1057,123456846,,,,in process,CUST1057,Lisa Jarvis,spearsjoshua@example.org,+1-360-608-9458x430,2024-04-07,True,Delivery Region Out of Scope,approved,,True
-ORD1058,123456847,,,,in process,CUST1058,Steven Weaver,zacharymarquez@example.org,(722)788-3200x343,2024-03-18,False,,,,True
-ORD1059,123456848,2024-05-07,2024-05-11,,in transit,CUST1059,Robert Oneill,lozanomonica@example.com,737-419-0502x4644,2024-04-05,False,,,,True
-ORD1060,123456849,2024-05-08,2024-05-17,2024-05-18,delivered,CUST1060,James Young,brianmiles@example.org,819-914-4933x7648,2024-03-18,False,,,,True
-ORD1061,123456850,2024-05-02,2024-05-10,,pending,CUST1061,Bobby Rose,lriley@example.net,342.637.8325,2024-04-12,False,,,,True
-ORD1062,123456851,2024-05-05,2024-05-13,,in transit,CUST1062,Alexander Wilson,stephenhernandez@example.net,501.784.3297x531,2024-04-11,False,,,,True
-ORD1063,123456852,2024-05-03,2024-05-09,,pending,CUST1063,Michael Brown,sarah18@example.com,964-676-2540x097,2024-04-08,False,,,,False
-ORD1064,123456853,2024-04-30,2024-05-07,,pending,CUST1064,Stephanie Williams,jeremyrush@example.net,001-798-353-5158x6036,2024-04-08,False,,,,True
-ORD1065,123456854,2024-04-23,2024-04-29,,in transit,CUST1065,Brian Williams,jacobalexander@example.org,886.291.9375x156,2024-04-11,False,,,,False
-ORD1066,123456855,2024-04-26,2024-05-02,2024-05-03,cancel,CUST1066,Laura Davis,whiteshelby@example.com,4667678274,2024-03-22,True,Defective Item,approved,2024-05-10,True
-ORD1067,123456856,2024-04-25,2024-05-04,,pending,CUST1067,Carlos Smith,justinsanders@example.com,317-209-2691,2024-04-12,False,,,,False
-ORD1068,123456857,2024-04-28,2024-05-02,,in transit,CUST1068,Seth Johnson,jeffreyvasquez@example.net,948-810-9885x9465,2024-03-25,False,,,,True
-ORD1069,123456858,2024-04-19,2024-04-25,,in transit,CUST1069,Elizabeth Lane,dwilson@example.net,394-764-3666x88796,2024-03-31,False,,,,True
-ORD1070,123456859,2024-05-15,2024-05-24,2024-06-02,delivered,CUST1070,Jason Hoffman,zmalone@example.net,(640)602-2611x5337,2024-04-08,True,Damaged Item,approved,2024-06-10,True
-ORD1071,123456860,2024-04-21,2024-04-25,2024-04-26,cancel,CUST1071,Joseph Cohen,oclark@example.net,+1-445-691-8111,2024-03-23,True,Damaged Item,approved,2024-05-04,True
-ORD1072,123456861,2024-04-18,2024-04-23,,in transit,CUST1072,Michael Diaz,william27@example.com,659-515-9163x88883,2024-03-31,False,,,,False
-ORD1073,123456862,2024-04-28,2024-05-08,,pending,CUST1073,Denise Horton,gschneider@example.com,+1-368-567-7313x43586,2024-03-30,False,,,,True
-ORD1074,123456863,,,,in process,CUST1074,Stephanie Rice,njackson@example.net,001-916-457-1644,2024-04-11,True,Delivery Region Out of Scope,approved,,True
-ORD1075,123456864,2024-05-05,2024-05-08,2024-05-11,cancel,CUST1075,Douglas Martin,xsilva@example.net,(500)453-7262x91810,2024-04-14,True,Damaged Item,approved,2024-05-18,True
-ORD1076,123456865,2024-04-20,2024-04-29,2024-05-07,cancel,CUST1076,Malik Watson,jrichardson@example.com,616.260.7238,2024-03-19,True,Defective Item,approved,2024-05-15,False
-ORD1077,123456866,2024-05-09,2024-05-19,,pending,CUST1077,Danielle Baldwin,abigail21@example.net,731-655-3678,2024-03-19,False,,,,True
-ORD1078,123456867,2024-04-23,2024-04-30,2024-05-07,cancel,CUST1078,Thomas Wilson,eholder@example.net,001-358-546-8359x819,2024-03-18,True,Defective Item,approved,2024-05-15,True
-ORD1079,123456868,2024-04-27,2024-05-02,2024-05-06,delivered,CUST1079,Stephanie Jones,marc00@example.com,(566)986-6984x59488,2024-03-25,False,,,,False
-ORD1080,123456869,2024-04-22,2024-04-25,,pending,CUST1080,Joshua Ward,roy36@example.net,(265)821-8006x2980,2024-03-28,False,,,,False
-ORD1081,123456870,2024-04-19,2024-04-26,,pending,CUST1081,Richard Ortega,yavery@example.net,326-745-7858x445,2024-04-02,False,,,,True
-ORD1082,123456871,,,,in process,CUST1082,Melissa Stafford,simongail@example.com,001-908-713-6157x954,2024-03-18,False,,,,False
-ORD1083,123456872,2024-05-12,2024-05-18,,in transit,CUST1083,April Nixon,lori26@example.net,(905)629-9441x3898,2024-03-22,False,,,,True
-ORD1084,123456873,2024-05-09,2024-05-16,,in transit,CUST1084,Debra Macias,mariaklein@example.com,3608959645,2024-04-09,False,,,,False
-ORD1085,123456874,2024-04-26,2024-05-04,2024-05-12,delivered,CUST1085,Megan Jackson,hmcintosh@example.net,001-948-247-0425,2024-04-11,True,Defective Item,approved,2024-05-20,True
-ORD1086,123456875,2024-04-23,2024-04-29,,in transit,CUST1086,Jason Cook,cassandrastephenson@example.com,952-357-1703x738,2024-04-13,False,,,,True
-ORD1087,123456876,2024-04-25,2024-04-29,,pending,CUST1087,Michelle Miller,dfoster@example.net,628.334.8373x143,2024-04-09,False,,,,False
-ORD1088,123456877,2024-05-03,2024-05-10,,pending,CUST1088,Alexis Hunter,bobbyburton@example.com,500.852.6918x14219,2024-03-19,False,,,,False
-ORD1089,123456878,2024-04-21,2024-04-26,,in transit,CUST1089,Steven Mckinney,cooksandra@example.org,001-503-475-7271x20965,2024-03-24,False,,,,True
-ORD1090,123456879,2024-05-02,2024-05-07,,in transit,CUST1090,Gregory Alexander,nathaniel58@example.com,001-945-574-1735,2024-04-07,False,,,,False
-ORD1091,123456880,2024-04-22,2024-04-26,,in transit,CUST1091,Logan Anderson,shawn85@example.com,+1-337-946-3595x77616,2024-03-20,False,,,,True
-ORD1092,123456881,2024-05-14,2024-05-19,,pending,CUST1092,Brady Hanson,sarah24@example.com,408-281-2500x2960,2024-03-21,False,,,,False
-ORD1093,123456882,2024-04-29,2024-05-02,,pending,CUST1093,Michael Russell,stonelucas@example.com,+1-778-815-5570x70248,2024-04-15,False,,,,False
-ORD1094,123456883,2024-05-07,2024-05-17,2024-05-26,delivered,CUST1094,Stephanie Murphy,emily81@example.net,001-740-940-0020x59619,2024-03-25,False,,,,False
-ORD1095,123456884,2024-04-29,2024-05-02,,in transit,CUST1095,Brett Terry,uperez@example.com,703-577-3838x0314,2024-04-01,False,,,,False
-ORD1096,123456885,2024-04-22,2024-05-02,,pending,CUST1096,Seth Delgado,michaelbentley@example.net,+1-517-949-1722x978,2024-04-05,False,,,,False
-ORD1097,123456886,2024-05-10,2024-05-16,2024-05-20,cancel,CUST1097,Elizabeth Aguilar,gabriel02@example.com,001-889-641-0142x60592,2024-03-23,True,Defective Item,approved,2024-05-27,True
-ORD1098,123456887,,,,in process,CUST1098,Katherine Fisher,yangkathy@example.com,001-568-524-6821,2024-04-08,False,,,,True
-ORD1099,123456888,2024-04-23,2024-04-26,2024-05-01,delivered,CUST1099,Jamie Holland,angelaobrien@example.org,(850)619-6006x8017,2024-04-06,True,Request Exceeded 7 Days,rejected,,False
+Order ID,Tracking Number,Shipment Date,Expected Delivery Date,Delivery Date,Status,Customer ID,Customer Name,Customer Email,Customer Phone,Order Date,Refund Requested,Refund Reason,Refund Status,Refund Date,Notification Status,Product,Description
+ORD1000,123456789,2024-05-10,2024-05-19,2024-05-28,cancel,CUST1000,William Ramirez,dana83@example.com,408.218.3405,2024-03-27,True,Damaged Item,approved,2024-06-03,False,Designer Eyeglasses,"Indie-style frames, ideal for the modern thinker."
+ORD1001,123456790,2024-05-05,2024-05-08,2024-05-18,cancel,CUST1001,Marie Alexander,brittanyallen@example.net,001-696-591-4933x380,2024-03-29,True,Damaged Item,approved,2024-05-26,True,Reading Eyeglasses,Enhanced lenses for close-up reading tasks.
+ORD1002,123456791,,,,in process,CUST1002,Carol Bates,wcain@example.org,+1-913-590-1321x129,2024-04-08,False,,,,True,Sports Eyeglasses,Durable frames designed for athletic use.
+ORD1003,123456792,2024-05-12,2024-05-16,2024-05-23,cancel,CUST1003,Jessica Cooley,jameschen@example.net,690-480-9975,2024-03-25,True,Defective Item,approved,2024-05-30,True,Reading Eyeglasses,Enhanced lenses for close-up reading tasks.
+ORD1004,123456793,,,,in process,CUST1004,Ronald Jackson,higginsmichele@example.org,001-805-234-1133,2024-03-31,True,Delivery Region Out of Scope,approved,,False,Reading Eyeglasses,Enhanced lenses for close-up reading tasks.
+ORD1005,123456794,2024-05-11,2024-05-16,2024-05-24,cancel,CUST1005,Christopher Abbott,johnsoncharles@example.org,(611)676-9397,2024-03-19,True,Damaged Item,approved,2024-06-01,True,Sun Protection Eyeglasses,Features UV protection for sunny days.
+ORD1006,123456795,2024-05-15,2024-05-19,2024-05-19,delivered,CUST1006,Mark Hobbs,andreawalter@example.org,001-820-611-4520,2024-04-16,False,,,,True,Sports Eyeglasses,Durable frames designed for athletic use.
+ORD1007,123456796,2024-04-29,2024-05-06,,in transit,CUST1007,Katherine Vargas,rothshane@example.com,001-400-543-0291,2024-03-29,False,,,,False,Sports Eyeglasses,Durable frames designed for athletic use.
+ORD1008,123456797,2024-05-14,2024-05-24,2024-06-01,delivered,CUST1008,Terri Rios,cory45@example.net,368-387-0547x4120,2024-04-08,True,Defective Item,approved,2024-06-08,False,Sports Eyeglasses,Durable frames designed for athletic use.
+ORD1009,123456798,2024-05-02,2024-05-08,,in transit,CUST1009,Frederick Wong,xfrench@example.org,413-344-2505,2024-03-27,False,,,,False,Reading Eyeglasses,Enhanced lenses for close-up reading tasks.
+ORD1010,123456799,,,,in process,CUST1010,Michael Harris,brenda65@example.net,+1-853-764-1149x839,2024-03-30,False,,,,True,Designer Eyeglasses,"Indie-style frames, ideal for the modern thinker."
+ORD1011,123456800,2024-05-01,2024-05-08,2024-05-10,delivered,CUST1011,Timothy Palmer,esmith@example.org,874-963-5482x17521,2024-04-17,True,Request Exceeded 7 Days,rejected,,True,Sports Eyeglasses,Durable frames designed for athletic use.
+ORD1012,123456801,2024-04-26,2024-04-29,,in transit,CUST1012,Tracey Leblanc,harriselizabeth@example.org,+1-787-311-5973x56334,2024-04-05,False,,,,True,Reading Eyeglasses,Enhanced lenses for close-up reading tasks.
+ORD1013,123456802,2024-05-13,2024-05-21,,in transit,CUST1013,Joshua Singh,bmelendez@example.org,(678)591-3582,2024-03-31,False,,,,True,Sun Protection Eyeglasses,Features UV protection for sunny days.
+ORD1014,123456803,2024-04-26,2024-05-01,2024-05-06,delivered,CUST1014,Thomas Walsh,xeverett@example.org,671.654.4278,2024-04-16,False,,,,True,Designer Eyeglasses,"Indie-style frames, ideal for the modern thinker."
+ORD1015,123456804,2024-05-06,2024-05-16,2024-05-23,cancel,CUST1015,Natasha Ruiz,lisa66@example.net,+1-912-907-2765x4499,2024-03-21,True,Damaged Item,approved,2024-05-29,True,Sun Protection Eyeglasses,Features UV protection for sunny days.
+ORD1016,123456805,2024-05-07,2024-05-17,2024-05-24,cancel,CUST1016,Tamara Irwin,john86@example.com,(261)647-4385,2024-04-01,True,Damaged Item,approved,2024-05-31,False,Designer Eyeglasses,"Indie-style frames, ideal for the modern thinker."
+ORD1017,123456806,2024-05-07,2024-05-12,2024-05-17,delivered,CUST1017,Christopher Santiago,kennedyjoseph@example.org,307.581.0557,2024-03-28,False,,,,False,Reading Eyeglasses,Enhanced lenses for close-up reading tasks.
+ORD1018,123456807,2024-05-05,2024-05-11,,in transit,CUST1018,Linda Hernandez,harveycorey@example.org,549-451-0758x5300,2024-04-02,False,,,,False,Basic Eyeglasses,"Simple yet stylish, perfect for daily wear."
+ORD1019,123456808,2024-05-12,2024-05-19,,in transit,CUST1019,Jennifer Smith,morrowmichael@example.net,+1-384-277-9258,2024-03-19,False,,,,True,Designer Eyeglasses,"Indie-style frames, ideal for the modern thinker."
+ORD1020,123456809,2024-04-20,2024-04-24,2024-04-30,cancel,CUST1020,Destiny Carter,dananthony@example.org,+1-524-226-6732x46205,2024-04-10,True,Damaged Item,approved,2024-05-06,True,Sun Protection Eyeglasses,Features UV protection for sunny days.
+ORD1021,123456810,2024-04-22,2024-04-26,2024-05-03,delivered,CUST1021,Justin Hanson,andrewsdanielle@example.org,+1-813-367-9044x810,2024-03-27,False,,,,True,Reading Eyeglasses,Enhanced lenses for close-up reading tasks.
+ORD1022,123456811,2024-04-19,2024-04-26,,in transit,CUST1022,Andrew King,hwalker@example.org,465.340.8978,2024-04-05,False,,,,True,Designer Eyeglasses,"Indie-style frames, ideal for the modern thinker."
+ORD1023,123456812,2024-04-19,2024-04-22,2024-04-29,cancel,CUST1023,Stephanie Scott,brianna85@example.org,(600)966-7767,2024-04-05,True,Damaged Item,approved,2024-05-05,False,Basic Eyeglasses,"Simple yet stylish, perfect for daily wear."
+ORD1024,123456813,2024-04-27,2024-05-01,,in transit,CUST1024,Kelly Mcdowell,melissabowers@example.net,+1-321-482-3887x9990,2024-04-06,False,,,,False,Basic Eyeglasses,"Simple yet stylish, perfect for daily wear."
+ORD1025,123456814,2024-04-19,2024-04-24,,pending,CUST1025,Donna Garcia MD,brandysnyder@example.org,966-777-1219,2024-04-13,False,,,,True,Sports Eyeglasses,Durable frames designed for athletic use.
+ORD1026,123456815,,,,in process,CUST1026,Patricia Ramirez,mhanna@example.org,859-415-4395,2024-04-16,True,Delivery Region Out of Scope,approved,,False,Sports Eyeglasses,Durable frames designed for athletic use.
+ORD1027,123456816,2024-05-08,2024-05-13,2024-05-14,cancel,CUST1027,Kelly Schneider,michael23@example.org,001-848-235-9027,2024-03-20,True,Damaged Item,approved,2024-05-20,True,Sun Protection Eyeglasses,Features UV protection for sunny days.
+ORD1028,123456817,2024-05-02,2024-05-11,2024-05-16,cancel,CUST1028,Emily Butler,craighoward@example.com,(426)863-8426,2024-03-27,True,Defective Item,approved,2024-05-22,False,Designer Eyeglasses,"Indie-style frames, ideal for the modern thinker."
+ORD1029,123456818,,,,in process,CUST1029,Adrian Moore,jennifer64@example.com,433.297.9194x27589,2024-04-09,False,,,,False,Designer Eyeglasses,"Indie-style frames, ideal for the modern thinker."
+ORD1030,123456819,2024-05-13,2024-05-21,,in transit,CUST1030,Margaret Gonzalez,hmiddleton@example.org,001-818-284-0009x0173,2024-03-23,False,,,,False,Sports Eyeglasses,Durable frames designed for athletic use.
+ORD1031,123456820,2024-05-05,2024-05-10,,pending,CUST1031,Jerry Ward,robert99@example.net,3013442277,2024-03-22,False,,,,True,Designer Eyeglasses,"Indie-style frames, ideal for the modern thinker."
+ORD1032,123456821,,,,in process,CUST1032,Thomas Arellano,christina07@example.net,3687729747,2024-04-04,False,,,,False,Designer Eyeglasses,"Indie-style frames, ideal for the modern thinker."
+ORD1033,123456822,2024-04-23,2024-05-03,,pending,CUST1033,Ivan Cross,paigegoodman@example.com,001-316-621-7915x93337,2024-04-15,False,,,,False,Basic Eyeglasses,"Simple yet stylish, perfect for daily wear."
+ORD1034,123456823,2024-04-19,2024-04-22,2024-05-01,cancel,CUST1034,Joseph Stafford,renee52@example.net,963-748-4179x64561,2024-03-19,True,Damaged Item,approved,2024-05-07,False,Sports Eyeglasses,Durable frames designed for athletic use.
+ORD1035,123456824,2024-04-26,2024-04-29,2024-05-09,delivered,CUST1035,Timothy Mann,burkebrian@example.com,4128736124,2024-04-10,False,,,,True,Reading Eyeglasses,Enhanced lenses for close-up reading tasks.
+ORD1036,123456825,2024-05-04,2024-05-11,,in transit,CUST1036,Mario Ferguson,chloepowell@example.net,(698)640-1649,2024-04-01,False,,,,False,Sports Eyeglasses,Durable frames designed for athletic use.
+ORD1037,123456826,,,,in process,CUST1037,Andrew Clark,thomasdixon@example.org,434-521-2679,2024-04-13,True,Delivery Region Out of Scope,approved,,False,Reading Eyeglasses,Enhanced lenses for close-up reading tasks.
+ORD1038,123456827,2024-05-09,2024-05-17,2024-05-18,delivered,CUST1038,Kristie Anderson,deanbrandon@example.net,613-291-2894x986,2024-03-23,False,,,,False,Basic Eyeglasses,"Simple yet stylish, perfect for daily wear."
+ORD1039,123456828,2024-04-18,2024-04-24,,pending,CUST1039,Michael Noble,paulking@example.org,751.284.1366,2024-04-09,False,,,,False,Sun Protection Eyeglasses,Features UV protection for sunny days.
+ORD1040,123456829,,,,in process,CUST1040,Rodney Moore,hwest@example.org,643.244.2548,2024-03-25,False,,,,False,Designer Eyeglasses,"Indie-style frames, ideal for the modern thinker."
+ORD1041,123456830,2024-04-28,2024-05-07,,pending,CUST1041,Victoria Miller,xjones@example.org,(750)339-8798,2024-03-30,False,,,,False,Basic Eyeglasses,"Simple yet stylish, perfect for daily wear."
+ORD1042,123456831,,,,in process,CUST1042,Ashley Leon,robertatucker@example.net,973.817.2483,2024-04-04,False,,,,False,Designer Eyeglasses,"Indie-style frames, ideal for the modern thinker."
+ORD1043,123456832,2024-05-13,2024-05-17,,in transit,CUST1043,Daniel Waters,shawn98@example.org,+1-617-532-2804x0466,2024-03-19,False,,,,True,Sun Protection Eyeglasses,Features UV protection for sunny days.
+ORD1044,123456833,,,,in process,CUST1044,Samuel Reyes,melaniepowers@example.net,832.905.7812x8386,2024-03-20,True,Delivery Region Out of Scope,approved,,True,Sun Protection Eyeglasses,Features UV protection for sunny days.
+ORD1045,123456834,,,,in process,CUST1045,Sarah Schmidt,carlos05@example.net,346.752.4480x402,2024-04-16,False,,,,True,Basic Eyeglasses,"Simple yet stylish, perfect for daily wear."
+ORD1046,123456835,2024-05-09,2024-05-17,,pending,CUST1046,Kyle Richardson,donaldhanson@example.org,959.231.2769x174,2024-04-01,False,,,,False,Sun Protection Eyeglasses,Features UV protection for sunny days.
+ORD1047,123456836,2024-05-15,2024-05-20,,in transit,CUST1047,Michael Scott,lanekristin@example.org,+1-357-842-5440,2024-03-21,False,,,,True,Reading Eyeglasses,Enhanced lenses for close-up reading tasks.
+ORD1048,123456837,2024-05-13,2024-05-19,,pending,CUST1048,Timothy Smith,shill@example.com,286-878-2968x714,2024-04-02,False,,,,True,Sun Protection Eyeglasses,Features UV protection for sunny days.
+ORD1049,123456838,2024-05-16,2024-05-22,,in transit,CUST1049,Antonio Mccarthy,wrogers@example.net,+1-615-332-4908x73632,2024-03-21,False,,,,False,Designer Eyeglasses,"Indie-style frames, ideal for the modern thinker."
