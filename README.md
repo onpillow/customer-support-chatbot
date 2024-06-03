@@ -40,13 +40,32 @@ This Streamlit application is currently in its early stage. It leverages Langcha
     ```
     streamlit run app.py
     ```
-## 5. Demo Screenshots
+## Demo Screenshots
 
+- **Tracking Number Query - Refund Status**:
+  - A query with a tracking number that returns the refund status with related date information.
+  <img src="./images/demo1.png" width="500">
 
-![Demo Screenshot](./images/demo1.png)
+- **Tracking Number Query - Order In Process**:
+  - A query with a tracking number that returns an order with the status of "in process."
+  <img src="./images/demo2.png" width="500">
 
-![Demo Screenshot](./images/demo2.png)
+- **Order ID Query - Refund Status**:
+  - A query with an order ID that returns the refund status with related date information.
+  <img src="./images/demo3.png" width="500">
 
-![Demo Screenshot](./images/demo3.png)
+- **Order ID Query - Order In Process**:
+  - A query about the refund status when the order is just in process.
+  <img src="./images/demo4.png" width="500">
 
-![Demo Screenshot](./images/demo4.png)
+- **General Query - No Specified ID**:
+  - A query without specifying an order ID or tracking number.
+  <img src="./images/demo5.png" width="500">
+
+- **Incorrect Order ID Format**:
+  - A query with the wrong order ID format.
+  <img src="./images/demo6.png" width="500">
+
+- **Non-Order Related Query**:
+  - Description: A query not related to an order.
+  <img src="./images/demo7.png" width="500">
