@@ -46,7 +46,7 @@ This Streamlit application is currently in its early stage. It leverages Langcha
   - A query with a tracking number that returns the refund status with related date information.
   <img src="./images/demo1.png" width="500">
 
-- **Order ID Query - expected delivery date **:
+- **Order ID Query - expected delivery date**:
   - A query with a order ID that returns the expected delivery date information.
 <img src="./images/demo8.png" width="500">
 
